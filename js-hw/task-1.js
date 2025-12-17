@@ -4,6 +4,10 @@
     а також вкладений об'єкт address з ключами city і street.
 */
 
-const person = {
-    
+const person = { name: "Ім'я",
+  age: 25,
+  address: {
+    city: "Kyiv",
+    street: "Khreshchatyk"
+  } 
 };
